@@ -61,12 +61,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl \
-    android.hardware.boot@1.1-service \
-    bootctrl.xiaomi_sm8250.recovery \
-    android.hardware.boot@1.1-impl-qti.recovery
-#    bootctrl.kona \
-#    bootctrl.kona.recovery
+    android.hardware.boot-service.qti \
+    android.hardware.boot-service.qti.recovery
 
 PRODUCT_PACKAGES += \
     otapreopt_script \

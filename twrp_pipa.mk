@@ -6,11 +6,11 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := alioth
+PRODUCT_RELEASE_NAME := pipa
 
 DEVICE_PATH := device/xiaomi/$(PRODUCT_RELEASE_NAME)
 
-# Inherit from alioth device
+# Inherit from pipa device
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Inherit any OrangeFox-specific settings
@@ -22,9 +22,9 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
-PRODUCT_BRAND := POCO
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := POCO F3
+PRODUCT_MODEL := Pad 6
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-#
+

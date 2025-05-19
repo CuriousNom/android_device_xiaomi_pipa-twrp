@@ -5,7 +5,7 @@ The Xiaomi Mi 11X (codenamed _"aliothin"_), Redmi K40 / POCO F3 (codenamed _"ali
 
 # Device specifications
 
-| Device       | Xiaomi Mi 11X / Redmi K40 / POCO F3                        |
+| Device       | Xiaomi Mi 11X / Redmi K40 / POCO F3 / Xiaomi Pad 6         |
 | -----------: | :----------------------------------------------------------|
 | SoC          | Qualcomm SM8250 Snapdragon 870 5G                          |
 | CPU          | 8x Qualcomm® Kryo™ 585 up to 2.84GHz                       |
@@ -29,7 +29,7 @@ The Xiaomi Mi 11X (codenamed _"aliothin"_), Redmi K40 / POCO F3 (codenamed _"ali
 - vA/B partition functions
 - Vibration
 
-The Mi 11X / Redmi K40 / POCO F3 devices use a Virtual A/B Partition Scheme!
+The Mi 11X / Redmi K40 / POCO F3 / Xiaomi Pad 6 devices use a Virtual A/B Partition Scheme!
 
 ## Building
 

@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 
-DEVICE_PATH := device/xiaomi/alioth
+DEVICE_PATH := device/xiaomi/pipa
 
 # Architecture
 TARGET_ARCH := arm64
@@ -29,7 +29,7 @@ TARGET_IS_64_BIT := true
 BOARD_VENDOR := xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := alioth,aliothin
+TARGET_OTA_ASSERT_DEVICE := pipa
 
 # Platform
 PRODUCT_PLATFORM := kona

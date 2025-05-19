@@ -6,6 +6,9 @@
 #
 
 LOCAL_PATH := device/xiaomi/pipa
+
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -20,12 +23,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     bootctrl.kona
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.kona \
-    libgptutils \
-    libz \
-    libcutils
 
 PRODUCT_PACKAGES += \
     otapreopt_script \

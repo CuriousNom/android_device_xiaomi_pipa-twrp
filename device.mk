@@ -109,8 +109,8 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 BOOT_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # OEM otacert
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    vendor/recovery/security/miui
+#PRODUCT_EXTRA_RECOVERY_KEYS += \
+#    vendor/recovery/security/miui
 
 # vendor_boot
 ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
